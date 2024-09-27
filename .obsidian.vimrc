@@ -7,6 +7,13 @@ nnoremap L $
 " Quickly remove search highlights
 nnoremap <F9> :nohl
 
+onoremap w iw
+onoremap b ib
+onoremap q i"
+onoremap < i<
+onoremap [ i[
+onoremap t it
+
 inoremap jj <Esc>
 " Yank to system clipboard
 set clipboard=unnamed
